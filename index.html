@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>My site</title>
+<meta name= "viewport" content= "width = device-width, initial-scale = 1.0">
+<link href= "bootstrap-4.3.1-dist/css/bootstrap.min.css" rel= "stylesheet">
+<link href="bootstrap-4.3.1-dist/css/ex1.css" rel="stylesheet"> 
+<link href="bootstrap-4.3.1-dist/css/new.css" rel="stylesheet">
+
+
+
+
+<!--<link href="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" rel="stylesheet">-->
+
+</head>
+
+<body>
+<!--<div class="view" style="background-image: url('images/img5.jpg'); background-no-repeat: repeat; background-size: cover; background-position: center center;">-->
+
+
+
+<!--
+<div class="container">
+<div class="alert alert-warning">
+<strong>Hello!!</strong>
+</div>
+</div>
+<a href="#" class="btn btn-success">submit
+-->
+<!--<div style=" background-image: url( 'img1.jpg');">-->
+ <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+            <div class="container">
+              <a class="navbar-brand" href="#"><strong>PORTFOLIO</strong></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+                <form class="form-inline">
+                  <div class="md-form my-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                  </div>
+                </form>
+              </div>
+            </div>
+           </nav>
+           <div class="container">
+           <h1 style="color:white;font-family:Georgia;">WELCOME TO MYSITE !!</h1>
+           </div>
+   <div class="w3-content w3-section w3-display-right" style="max-width:600px" id="carouselExampleControls">
+  <img class="mySlides" src="images/img1.jfif" style="width:100% ">
+  <img class="mySlides" src="images/img2.jpg" style="width:100%">
+  <img class="mySlides" src="images/img3.jpg" style="width:100% ">
+  <img class="mySlides" src="images/img4.jpg" style="width:100%">
+</div>
+ 
+ </div>
+<div class="w3-half w3-blue-blue w3-container w3-right-align" style="height:500px">
+    <div class="w3-padding-64 w3-center">
+      <h1>About this site..</h1>
+      <img src="images/img123.png" class="w3-margin w3-circle" alt="Person" style="width:50%">
+      <div class="w3-left-align w3-padding-large">
+        <h2 style="color:white;font-family:Georgia;"><p>This site is a portfolio site.</p></h2>
+        <h2 style="color:white;font-family:Georgia;"><p>It contains home page,about page and a contact page.</p></h2>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+       
+ 
+<script src="bootstrap-4.3.1-dist\js\bootstrap.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+         <!-- Mask & flexbox options-->
+</body>
+ 
+</html>
